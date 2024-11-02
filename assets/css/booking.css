@@ -1,0 +1,94 @@
+#booking {
+  width: 430px;
+  box-shadow: 0px 0px 10px 1px rgb(228, 227, 227);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.search-content {
+  padding: 20px;
+  background: #fff;
+}
+
+.onglets {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.onglets h3 {
+  width: 33%;
+  margin: 0px;
+  gap: 10;
+}
+
+.onglets h3:nth-child(1) {
+  background-color: #fff;
+}
+
+.onglets h3:nth-child(2),
+.onglets h3:nth-child(3) {
+  background-color: #2f2f2f;
+  color: #fff;
+}
+
+.checkbox {
+  width: 50px;
+}
+
+section .box {
+  border: 1px solid rgb(228, 227, 227);
+}
+
+hr {
+  width: 80%;
+  border-color: rgb(228, 227, 227);
+}
+
+section .box input {
+  border: 0px;
+}
+
+#date {
+  color: #f26601;
+}
+
+.passager div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quantity {
+  color: #f26601;
+  border: 0px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.search {
+  background-color: #f26601;
+  color: #fff;
+  border: 0px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+#booking a {
+  color: #f26601;
+  text-decoration: none;
+  padding: 20px 0px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.box div {
+  width: 80%;
+}

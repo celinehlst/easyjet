@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyJet</title>
+    <link rel="shortcut icon" href="./assets/imgs/tab-logo.png" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/booking.css" />
+    <script
+      src="https://kit.fontawesome.com/753231363d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <i class="fa-solid fa-bars"></i>
+        <img src="./assets/imgs/ej-title.png" />
+        <nav>
+          <a href="">Infos de vol</a>
+          <a href="">Voitures/Autres services</a>
+          <a href="">Business</a>
+          <a href="">Hôtels</a>
+          <a href="">Mes réservations</a>
+        </nav>
+      </div>
+
+      <nav>
+        <button>S'enregistrer</button>
+        <a href="" id="signin">Se connecter</a>
+        <a href="">Aide</a>
+        <a href="">fr-FR</a>
+        <img src="./assets/imgs/drapeau.png" />
+      </nav>
+    </header>
+    <main>
+      <section class="search-section">
+        <div class="container">
+          <section id="main">
+            <section id="booking">
+              <div class="onglets">
+                <h3>Vols</h3>
+                <h3>Hotels</h3>
+                <h3>Voitures</h3>
+              </div>
+              <div class="search-content">
+                <input type="checkbox" name="simple" class="checkbox" /><label
+                  >Aller simple</label
+                ><br />
+                <div class="box">
+                  <div>
+                    <label>De :</label><input type="text" name="aller" />
+                  </div>
+                  <i class="fa-solid fa-list"></i>
+                </div>
+                <div class="box">
+                  <div>
+                    <label>À :</label><input type="text" name="retour" />
+                  </div>
+                  <i class="fa-solid fa-list"></i>
+                </div>
+                <div id="date">
+                  <div class="box">
+                    <i class="fa-regular fa-calendar"></i>
+                    <label>Aller</label><br />
+                  </div>
+                  <div class="box">
+                    <i class="fa-regular fa-calendar"></i>
+                    <label>Retour</label><br />
+                  </div>
+                </div>
+
+                <div class="passager">
+                  <div>
+                    <label>Adultes (16+)</label>
+                    <div>
+                      <button class="quantity">-</button><label>1</label
+                      ><button class="quantity">+</button>
+                    </div>
+                  </div>
+                  <div>
+                    <label>Enfants (2-15)</label>
+                    <div>
+                      <button class="quantity">-</button><label>0</label
+                      ><button class="quantity">+</button>
+                    </div>
+                  </div>
+                  <div>
+                    <label>Bébés (<2)</label>
+                    <div>
+                      <button class="quantity">-</button><label>0</label
+                      ><button class="quantity">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="search">Afficher les vols ></button><br />
+                <a href="">A propos de l'assistance spéciale ></a><br />
+                <a href="">Nous compensons nos émissions carbone ></a>
+              </div>
+            </section>
+
+            <section class="main-text">
+              <h1>Nager. Dormir. Manger. Recommencer.</h1>
+              <p>
+                Cet été, détendez-vous à la plage : Baléares, Sardaigne,
+                Sicile... Vous avez le choix !
+              </p>
+              <p>à partir de</p>
+              <p class="price">29,75€</p>
+              <button>Réservez maintenant</button>
+            </section>
+          </section>
+        </div>
+        <section class="destinations">
+          <div class="container">
+            <div>
+              <h3>Lisbonne</h3>
+              <p>
+                à partir de Paris Charles de Gaulle <br />
+                29,75€ nov 24
+              </p>
+              <button>Réservez ></button>
+            </div>
+            <div>
+              <h3>Porto</h3>
+              <p>
+                à partir de Paris Charles de Gaulle <br />
+                29,75€ nov 24
+              </p>
+              <button>Réservez ></button>
+            </div>
+            <div>
+              <h3>Faro</h3>
+              <p>
+                à partir de Paris Charles de Gaulle <br />
+                29,75€ nov 24
+              </p>
+              <button>Réservez ></button>
+            </div>
+            <div>
+              <h3>Lisbonne</h3>
+              <p>
+                à partir de Paris Charles de Gaulle <br />
+                29,75€ nov 24
+              </p>
+              <button>Réservez ></button>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div class="container">
+        <section id="worldwide" class="bloc">
+          <div class="background"></div>
+          <div class="text">
+            <h2>Worldwide</h2>
+            <p>Voyagez encore plus loin à l'étranger</p>
+            <p>
+              Découvrez l'Europe et au-delà grâce à notre offre de produits de
+              correspondance.
+            </p>
+            <div><button>En savoir plus</button></div>
+          </div>
+        </section>
+
+        <section class="carousel">
+          <div class="colonne">
+            <img src="./assets/imgs/carousel1.jpg" />
+            <div>
+              <h2>Location de véhicule</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget tortor quis libero venenatis sagittis. Fusce justo orci,
+                tempor rhoncus augue iaculis, pretium tincidunt nibh. Fusce
+                blandit quis lectus ac viverra.
+              </p>
+              <button>En savoir plus</button>
+            </div>
+          </div>
+          <div class="colonne">
+            <img src="./assets/imgs/carousel2.jpg" />
+            <div>
+              <h2>Location de véhicule</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget tortor quis libero venenatis sagittis. Fusce justo orci,
+                tempor rhoncus augue iaculis, pretium tincidunt nibh. Fusce
+                blandit quis lectus ac viverra.
+              </p>
+              <button>En savoir plus</button>
+            </div>
+          </div>
+          <div class="colonne">
+            <img src="./assets/imgs/carousel3.jpg" />
+            <div>
+              <h2>Location de véhicule</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget tortor quis libero venenatis sagittis. Fusce justo orci,
+                tempor rhoncus augue iaculis, pretium tincidunt nibh. Fusce
+                blandit quis lectus ac viverra.
+              </p>
+              <button>En savoir plus</button>
+            </div>
+          </div>
+          <div class="colonne">
+            <img src="./assets/imgs/carousel4.jpg" />
+            <div>
+              <h2>Location de véhicule</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget tortor quis libero venenatis sagittis. Fusce justo orci,
+                tempor rhoncus augue iaculis, pretium tincidunt nibh. Fusce
+                blandit quis lectus ac viverra.
+              </p>
+              <button>En savoir plus</button>
+            </div>
+          </div>
+          <div class="colonne">
+            <img src="./assets/imgs/carousel5.jpg" />
+            <div>
+              <h2>Location de véhicule</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eget tortor quis libero venenatis sagittis. Fusce justo orci,
+                tempor rhoncus augue iaculis, pretium tincidunt nibh. Fusce
+                blandit quis lectus ac viverra.
+              </p>
+              <button>En savoir plus</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="bretagne" class="bloc">
+          <div class="background"></div>
+          <div class="text">
+            <h2>Cet été, faîtes sauter le crêpier</h2>
+            <p>
+              Cap à l'ouest et bienvenue à Brest ! La perle maritime de la
+              Bretagne vous attend, là où l'aventure s'élève comme les marées et
+              où la bonne humeur fait des vagues !
+            </p>
+            <p>
+              Les magnifiques plages de sable fin et les criques isolées
+              invitent à la détente et à la contemplation. Les amateurs de plein
+              air seront ravis de pouvoir profiter des sentiers côtiers
+              pittoresques qui offrent des vues spectaculaires sur l'océan
+              Atlantique.
+            </p>
+            <div><button>Réserver maintenant</button></div>
+          </div>
+        </section>
+        <section id="images">
+          <div>
+            <img src="./assets/imgs/triple-first.jpg" />
+            <h2>Développement durable</h2>
+            <a href="">En savoir plus ></a>
+          </div>
+          <div>
+            <img src="./assets/imgs/triple-second.jpg" />
+            <h2>Apprivoiser votre peur de voler</h2>
+            <a href="">En savoir plus ></a>
+          </div>
+          <div>
+            <img src="./assets/imgs/triple-third.jpg" />
+            <h2>Inscrivez-vous à notre newsletter</h2>
+            <a href="">Profitez en ></a>
+          </div>
+        </section>
+
+        <section id="aide">
+          <h2>Comment pouvons-nous vous aider ?</h2>
+          <div class="carousel">
+            <div>
+              <h3>Questions fréquentes</h3>
+              <i class="fa-solid fa-question"></i>
+            </div>
+            <div>
+              <h3>Bagages</h3>
+              <i class="fa-solid fa-suitcase"></i>
+            </div>
+            <div>
+              <h3>Retards et annulations</h3>
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div>
+              <h3>S'enregistrer en ligne</h3>
+              <i class="fa-regular fa-mobile"></i>
+            </div>
+            <div>
+              <h3>Effectuer un changement</h3>
+              <i class="fa-solid fa-pen"></i>
+            </div>
+            <div>
+              <h3>Protection contre les restrictions de voyage</h3>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div>
+              <h3>Protection contre les restrictions de voyage</h3>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h6>Infos de vol</h6>
+          <div>
+            <a href="">Flight Tracker</a><br />
+            <a href="">Gérer les réservations</a><br />
+            <a href="">Durabilité</a><br />
+            <a href="">Guides de voyage</a><br />
+            <a href="">Carte des destinations</a><br />
+            <a href="">Vaincre votre peur de voler</a><br />
+            <a href="">Durée des vols</a><br />
+          </div>
+        </div>
+        <div>
+          <h6>Service clientèle</h6>
+          <div>
+            <a href="">Accessibilité</a><br />
+            <a href="">La Charte du passager</a><br />
+            <a href="">Aide</a><br />
+            <a href="">Etat du trafic</a><br />
+            <a href="">Plan du site</a><br />
+            <a href="">Aide spéciale</a><br />
+          </div>
+        </div>
+        <div>
+          <h6>A propos d'Easy Jet</h6>
+          <div>
+            <a href="">Carrières</a><br />
+            <a href="">Informations sur la compagnie</a><br />
+            <a href="">easyJet Spirit</a><br />
+            <a href="">Unicef</a><br />
+          </div>
+        </div>
+        <div>
+          <h6>Termes et conditions</h6>
+          <div>
+            <a href="">Flight Tracker</a><br />
+            <a href="">Gérer les réservations</a><br />
+            <a href="">Durabilité</a><br />
+            <a href="">Guides de voyage</a><br />
+            <a href="">Carte des destinations</a><br />
+            <a href="">Vaincre votre peur de voler</a><br />
+            <a href="">Durée des vols</a><br />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
