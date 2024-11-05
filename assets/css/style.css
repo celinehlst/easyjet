@@ -191,6 +191,7 @@ section button {
   border-radius: 20px;
   border: 1px solid #8a8a8a;
   width: 33%;
+  flex-shrink: 0;
 }
 
 .carousel .colonne div {
@@ -204,6 +205,7 @@ section button {
 .carousel img {
   object-fit: cover;
   border-radius: 20px;
+  width: 100%;
 }
 
 /* images */
